@@ -5,7 +5,7 @@ function greeting(name) {
 
    function nice() {
     const nice = 'nice to meet you';
-    console.log(`Hello, my name is tyler ${name}, ${nice}.`);
+    console.log(`Hello, my name is ${name}, ${nice}.`);
   }
   nice("nice to meet you");
 } 
