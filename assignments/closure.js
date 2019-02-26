@@ -1,6 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function greeting(name) {
+  console.log(`My name is ${name}. What's yours?`);
 
+   function nice() {
+    const nice = 'nice to meet you';
+    console.log(`Hello, my name is ${name}, ${nice}.`);
+  }
+  nice("nice to meet you");
+} 
+ greeting('Tyler');
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
